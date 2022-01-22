@@ -1,0 +1,76 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    margin: 0;
+text-align: center;
+}
+header{
+    padding: 15px, 15px, 0px;
+}
+#nav-left{
+    float: left;
+}
+#nav-right{
+    float: right;
+}
+#image-google{
+    display: block;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav a{
+    text-decoration: none;
+    font-size: 13px;
+}
+.clearfix{
+    clear: both;
+}
+#app-icon{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+#mag{
+    width: 30px;
+    
+}
+#mic{
+   height: 20px;
+}
+#searchbar{
+    padding: 20px 0px 0px;
+}
+.button-container{
+    
+}
+#search{
+    width: 515px;
+    height: 46px;
+    padding: 3px 3px 3px 50px;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+}
+p{
+    font-size: 13px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+#footer-left{
+    float: left;
+}
+#footer-right{
+    float: right;
+}
+#footer-country{
+    text-align: left;
+    margin-left: 13px;
+}

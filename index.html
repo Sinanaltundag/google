@@ -1,43 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Google Landing Page</title>
+  </head>
+  <body>
     <header>
-<nav id="nav-left">
-<ul>
-    <li><a href="" class="header-links"></a></li>
-    <li><a href="" class="header-links"></a></li>
-</ul>
-</nav>
-<nav id="nav-right">
-<ul>
-    <li><a href="" class="header-links"></a></li>
-    <li><a href="" class="header-links"></a></li>
-    <li><a href="" class="header-links"><img src="./images/icon-menu.jpg" alt="" srcset=""></a></li>
-    <li><button id="sign-in" class="header-links"></button></li>
-</ul>
-</nav>
+      <nav id="nav-left">
+        <a href="" class="header-links">About</a>
+        <a href="" class="header-links">Store</a>
+      </nav>
+      <nav id="nav-right">
+        <a href="" class="header-links">Gmail</a>
+        <a href="" class="header-links">Images</a>
 
+        <a href="" class="header-links" >
+          <img id="app-icon" src="./images/icon-menu.jpg" alt="" srcset=""
+        /></a>
+
+        <button id="sign-in" class="header-links">Sign In</button>
+      </nav>
+      <div class="clearfix"></div>
     </header>
-
+    <img src="./images/googlelogo.png" alt="" srcset="" id="image-google" />
     <div id="searchbar">
-
+      <img src="./images/magnifying_glass.jpg" alt="" srcset="" id="mag"/>
+      <input type="search" name="search" id="search" />
+      <a href=""
+        ><img src="./images/google_microphone.png" alt="" srcset="" id="mic"
+      /></a>
     </div>
+    <div class="button-container">
+      <button class="buttons">Google Search</button>
+      <button class="buttons">I'm Feeling Lucky</button>
+    </div>
+    <p>Other Languages you can use Google:<a href="">English</a></p>
     <footer>
-<div id="footer-country">
-
-</div>
-<nav id="footer-left">
-    <a href=""></a><a href=""></a><a href=""></a>
-</nav>
-<nav id="footer-right">
-    <a href=""></a><a href=""></a><a href=""></a>
-</nav>
+      <div id="footer-country">Turkey</div>
+      <nav id="footer-left">
+        <a href="">Advertising</a>
+        <a href="">Business</a>
+        <a href="">How Search Works</a>
+      </nav>
+      <nav id="footer-right">
+        <a href="">Privacy</a>
+        <a href="">Terms</a>
+        <a href="">Settings</a>
+      </nav>
     </footer>
-</body>
+  </body>
 </html>
